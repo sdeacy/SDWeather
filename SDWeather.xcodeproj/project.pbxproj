@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE8415D31A3C7A5700E19D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8415D21A3C7A5700E19D97 /* main.m */; };
+		FE8415D61A3C7A5700E19D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8415D51A3C7A5700E19D97 /* AppDelegate.m */; };
+		FE8415D91A3C7A5800E19D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8415D81A3C7A5800E19D97 /* ViewController.m */; };
+		FE8415DC1A3C7A5800E19D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8415DA1A3C7A5800E19D97 /* Main.storyboard */; };
+		FE8415DE1A3C7A5800E19D97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8415DD1A3C7A5800E19D97 /* Images.xcassets */; };
+		FE8415E11A3C7A5800E19D97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8415DF1A3C7A5800E19D97 /* LaunchScreen.xib */; };
+		FE8415ED1A3C7A5800E19D97 /* SDWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8415EC1A3C7A5800E19D97 /* SDWeatherTests.m */; };
+		FE84163C1A3DBD2D00E19D97 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84162A1A3DBD2D00E19D97 /* AFHTTPRequestOperation.m */; };
+		FE84163D1A3DBD2D00E19D97 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84162C1A3DBD2D00E19D97 /* AFHTTPRequestOperationManager.m */; };
+		FE84163E1A3DBD2D00E19D97 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84162E1A3DBD2D00E19D97 /* AFHTTPSessionManager.m */; };
+		FE84163F1A3DBD2D00E19D97 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8416311A3DBD2D00E19D97 /* AFNetworkReachabilityManager.m */; };
+		FE8416401A3DBD2D00E19D97 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8416331A3DBD2D00E19D97 /* AFSecurityPolicy.m */; };
+		FE8416411A3DBD2D00E19D97 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8416351A3DBD2D00E19D97 /* AFURLConnectionOperation.m */; };
+		FE8416421A3DBD2D00E19D97 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8416371A3DBD2D00E19D97 /* AFURLRequestSerialization.m */; };
+		FE8416431A3DBD2D00E19D97 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8416391A3DBD2D00E19D97 /* AFURLResponseSerialization.m */; };
+		FE8416441A3DBD2D00E19D97 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84163B1A3DBD2D00E19D97 /* AFURLSessionManager.m */; };
+		FE8416471A3DC50900E19D97 /* SDCityData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8416461A3DC50900E19D97 /* SDCityData.m */; };
+		FE8416491A3E120C00E19D97 /* 10d.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8416481A3E120C00E19D97 /* 10d.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8415E71A3C7A5800E19D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8415C51A3C7A5600E19D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8415CC1A3C7A5700E19D97;
+			remoteInfo = SDWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE8415CD1A3C7A5700E19D97 /* SDWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8415D11A3C7A5700E19D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8415D21A3C7A5700E19D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE8415D41A3C7A5700E19D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE8415D51A3C7A5700E19D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE8415D71A3C7A5700E19D97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE8415D81A3C7A5800E19D97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE8415DB1A3C7A5800E19D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE8415DD1A3C7A5800E19D97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE8415E01A3C7A5800E19D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE8415E61A3C7A5800E19D97 /* SDWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8415EB1A3C7A5800E19D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8415EC1A3C7A5800E19D97 /* SDWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWeatherTests.m; sourceTree = "<group>"; };
+		FE8416291A3DBD2D00E19D97 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		FE84162A1A3DBD2D00E19D97 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		FE84162B1A3DBD2D00E19D97 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		FE84162C1A3DBD2D00E19D97 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		FE84162D1A3DBD2D00E19D97 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		FE84162E1A3DBD2D00E19D97 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		FE84162F1A3DBD2D00E19D97 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		FE8416301A3DBD2D00E19D97 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		FE8416311A3DBD2D00E19D97 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FE8416321A3DBD2D00E19D97 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		FE8416331A3DBD2D00E19D97 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		FE8416341A3DBD2D00E19D97 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		FE8416351A3DBD2D00E19D97 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		FE8416361A3DBD2D00E19D97 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		FE8416371A3DBD2D00E19D97 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		FE8416381A3DBD2D00E19D97 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FE8416391A3DBD2D00E19D97 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		FE84163A1A3DBD2D00E19D97 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		FE84163B1A3DBD2D00E19D97 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		FE8416451A3DC50900E19D97 /* SDCityData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCityData.h; sourceTree = "<group>"; };
+		FE8416461A3DC50900E19D97 /* SDCityData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCityData.m; sourceTree = "<group>"; };
+		FE8416481A3E120C00E19D97 /* 10d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10d.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8415CA1A3C7A5700E19D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8415E31A3C7A5800E19D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE8415C41A3C7A5600E19D97 = {
+			isa = PBXGroup;
+			children = (
+				FE8416281A3DBD2D00E19D97 /* AFNetworking */,
+				FE8415CF1A3C7A5700E19D97 /* SDWeather */,
+				FE8415E91A3C7A5800E19D97 /* SDWeatherTests */,
+				FE8415CE1A3C7A5700E19D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8415CE1A3C7A5700E19D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8415CD1A3C7A5700E19D97 /* SDWeather.app */,
+				FE8415E61A3C7A5800E19D97 /* SDWeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8415CF1A3C7A5700E19D97 /* SDWeather */ = {
+			isa = PBXGroup;
+			children = (
+				FE8415D41A3C7A5700E19D97 /* AppDelegate.h */,
+				FE8415D51A3C7A5700E19D97 /* AppDelegate.m */,
+				FE8415D71A3C7A5700E19D97 /* ViewController.h */,
+				FE8415D81A3C7A5800E19D97 /* ViewController.m */,
+				FE8415DA1A3C7A5800E19D97 /* Main.storyboard */,
+				FE8415DD1A3C7A5800E19D97 /* Images.xcassets */,
+				FE8416481A3E120C00E19D97 /* 10d.png */,
+				FE8415DF1A3C7A5800E19D97 /* LaunchScreen.xib */,
+				FE8415D01A3C7A5700E19D97 /* Supporting Files */,
+				FE8416451A3DC50900E19D97 /* SDCityData.h */,
+				FE8416461A3DC50900E19D97 /* SDCityData.m */,
+			);
+			path = SDWeather;
+			sourceTree = "<group>";
+		};
+		FE8415D01A3C7A5700E19D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE8415D11A3C7A5700E19D97 /* Info.plist */,
+				FE8415D21A3C7A5700E19D97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE8415E91A3C7A5800E19D97 /* SDWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8415EC1A3C7A5800E19D97 /* SDWeatherTests.m */,
+				FE8415EA1A3C7A5800E19D97 /* Supporting Files */,
+			);
+			path = SDWeatherTests;
+			sourceTree = "<group>";
+		};
+		FE8415EA1A3C7A5800E19D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE8415EB1A3C7A5800E19D97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE8416281A3DBD2D00E19D97 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FE8416291A3DBD2D00E19D97 /* AFHTTPRequestOperation.h */,
+				FE84162A1A3DBD2D00E19D97 /* AFHTTPRequestOperation.m */,
+				FE84162B1A3DBD2D00E19D97 /* AFHTTPRequestOperationManager.h */,
+				FE84162C1A3DBD2D00E19D97 /* AFHTTPRequestOperationManager.m */,
+				FE84162D1A3DBD2D00E19D97 /* AFHTTPSessionManager.h */,
+				FE84162E1A3DBD2D00E19D97 /* AFHTTPSessionManager.m */,
+				FE84162F1A3DBD2D00E19D97 /* AFNetworking.h */,
+				FE8416301A3DBD2D00E19D97 /* AFNetworkReachabilityManager.h */,
+				FE8416311A3DBD2D00E19D97 /* AFNetworkReachabilityManager.m */,
+				FE8416321A3DBD2D00E19D97 /* AFSecurityPolicy.h */,
+				FE8416331A3DBD2D00E19D97 /* AFSecurityPolicy.m */,
+				FE8416341A3DBD2D00E19D97 /* AFURLConnectionOperation.h */,
+				FE8416351A3DBD2D00E19D97 /* AFURLConnectionOperation.m */,
+				FE8416361A3DBD2D00E19D97 /* AFURLRequestSerialization.h */,
+				FE8416371A3DBD2D00E19D97 /* AFURLRequestSerialization.m */,
+				FE8416381A3DBD2D00E19D97 /* AFURLResponseSerialization.h */,
+				FE8416391A3DBD2D00E19D97 /* AFURLResponseSerialization.m */,
+				FE84163A1A3DBD2D00E19D97 /* AFURLSessionManager.h */,
+				FE84163B1A3DBD2D00E19D97 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8415CC1A3C7A5700E19D97 /* SDWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8415F01A3C7A5900E19D97 /* Build configuration list for PBXNativeTarget "SDWeather" */;
+			buildPhases = (
+				FE8415C91A3C7A5700E19D97 /* Sources */,
+				FE8415CA1A3C7A5700E19D97 /* Frameworks */,
+				FE8415CB1A3C7A5700E19D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWeather;
+			productName = SDWeather;
+			productReference = FE8415CD1A3C7A5700E19D97 /* SDWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE8415E51A3C7A5800E19D97 /* SDWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8415F31A3C7A5900E19D97 /* Build configuration list for PBXNativeTarget "SDWeatherTests" */;
+			buildPhases = (
+				FE8415E21A3C7A5800E19D97 /* Sources */,
+				FE8415E31A3C7A5800E19D97 /* Frameworks */,
+				FE8415E41A3C7A5800E19D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8415E81A3C7A5800E19D97 /* PBXTargetDependency */,
+			);
+			name = SDWeatherTests;
+			productName = SDWeatherTests;
+			productReference = FE8415E61A3C7A5800E19D97 /* SDWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8415C51A3C7A5600E19D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "shay deacy";
+				TargetAttributes = {
+					FE8415CC1A3C7A5700E19D97 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FE8415E51A3C7A5800E19D97 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FE8415CC1A3C7A5700E19D97;
+					};
+				};
+			};
+			buildConfigurationList = FE8415C81A3C7A5700E19D97 /* Build configuration list for PBXProject "SDWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8415C41A3C7A5600E19D97;
+			productRefGroup = FE8415CE1A3C7A5700E19D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8415CC1A3C7A5700E19D97 /* SDWeather */,
+				FE8415E51A3C7A5800E19D97 /* SDWeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8415CB1A3C7A5700E19D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8415DC1A3C7A5800E19D97 /* Main.storyboard in Resources */,
+				FE8415E11A3C7A5800E19D97 /* LaunchScreen.xib in Resources */,
+				FE8415DE1A3C7A5800E19D97 /* Images.xcassets in Resources */,
+				FE8416491A3E120C00E19D97 /* 10d.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8415E41A3C7A5800E19D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8415C91A3C7A5700E19D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE84163C1A3DBD2D00E19D97 /* AFHTTPRequestOperation.m in Sources */,
+				FE8415D91A3C7A5800E19D97 /* ViewController.m in Sources */,
+				FE84163D1A3DBD2D00E19D97 /* AFHTTPRequestOperationManager.m in Sources */,
+				FE84163F1A3DBD2D00E19D97 /* AFNetworkReachabilityManager.m in Sources */,
+				FE8416431A3DBD2D00E19D97 /* AFURLResponseSerialization.m in Sources */,
+				FE8416411A3DBD2D00E19D97 /* AFURLConnectionOperation.m in Sources */,
+				FE8416471A3DC50900E19D97 /* SDCityData.m in Sources */,
+				FE8416401A3DBD2D00E19D97 /* AFSecurityPolicy.m in Sources */,
+				FE84163E1A3DBD2D00E19D97 /* AFHTTPSessionManager.m in Sources */,
+				FE8416421A3DBD2D00E19D97 /* AFURLRequestSerialization.m in Sources */,
+				FE8416441A3DBD2D00E19D97 /* AFURLSessionManager.m in Sources */,
+				FE8415D61A3C7A5700E19D97 /* AppDelegate.m in Sources */,
+				FE8415D31A3C7A5700E19D97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8415E21A3C7A5800E19D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8415ED1A3C7A5800E19D97 /* SDWeatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8415E81A3C7A5800E19D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8415CC1A3C7A5700E19D97 /* SDWeather */;
+			targetProxy = FE8415E71A3C7A5800E19D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE8415DA1A3C7A5800E19D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8415DB1A3C7A5800E19D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE8415DF1A3C7A5800E19D97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8415E01A3C7A5800E19D97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE8415EE1A3C7A5900E19D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE8415EF1A3C7A5900E19D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8415F11A3C7A5900E19D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE8415F21A3C7A5900E19D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE8415F41A3C7A5900E19D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDWeather.app/SDWeather";
+			};
+			name = Debug;
+		};
+		FE8415F51A3C7A5900E19D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDWeather.app/SDWeather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8415C81A3C7A5700E19D97 /* Build configuration list for PBXProject "SDWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8415EE1A3C7A5900E19D97 /* Debug */,
+				FE8415EF1A3C7A5900E19D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8415F01A3C7A5900E19D97 /* Build configuration list for PBXNativeTarget "SDWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8415F11A3C7A5900E19D97 /* Debug */,
+				FE8415F21A3C7A5900E19D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8415F31A3C7A5900E19D97 /* Build configuration list for PBXNativeTarget "SDWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8415F41A3C7A5900E19D97 /* Debug */,
+				FE8415F51A3C7A5900E19D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8415C51A3C7A5600E19D97 /* Project object */;
+}
